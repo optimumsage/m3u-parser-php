@@ -1,0 +1,24 @@
+{
+    "name": "optimumsage/m3u-parser",
+    "description": "This will parse m3u files and convert them to array or json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Mohsin Siyal",
+        "email": "dev.mohsinsiyal@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "OptimumSage\\M3uParser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OptimumSage\\M3uParser\\M3uParserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
