@@ -1,5 +1,5 @@
 {
-    "name": "optimumsage/m3u-parser",
+    "name": "optimumsage/m3u-parser-php",
     "description": "This will parse m3u files and convert them to array or json",
     "type": "library",
     "license": "MIT",
