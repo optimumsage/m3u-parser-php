@@ -1,4 +1,6 @@
 # M3u Parser
+[@[License](https://img.shields.io/github/license/optimumsage/m3u-parser-php)]
+
 
 This library helps you parse m3u files from url or text.
 
