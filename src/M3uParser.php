@@ -51,9 +51,9 @@ class M3uParser
     public static function isUrlValid($url)
     {
         list($status) = get_headers($url);
-        if (strpos($status, '404') !== false) {
-            return false;
+        if (str_contains($status, '200') || str_contains($status, '201')) {
+            return true;
         }
-        return true;
+        return false;
     }
 }
